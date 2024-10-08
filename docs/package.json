@@ -1,0 +1,16 @@
+{
+  "name": "lazysizes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Takuya Motoshima <developer.takuyamotoshima@gmail.com> (https://twitter.com/TakuyaMotoshima)",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "lazysizes": "^5.3.2",
+    "pdfjs-dist": "^4.7.76"
+  }
+}

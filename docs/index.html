@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF lazy load sample</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="image-container">
+    <a href="images/sample.jpg" target="_blank" class="image-title">JPEG:</a>
+    <img data-src="images/sample.jpg" class="lazyload">
+  </div>
+  <div class="image-container">
+    <a href="images/sample.pdf" target="_blank" class="image-title">PDF:</a>
+    <img data-src="images/sample.pdf" class="lazyload">
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
